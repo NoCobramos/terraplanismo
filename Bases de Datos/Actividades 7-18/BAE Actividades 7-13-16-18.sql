@@ -41,3 +41,27 @@ where Genre like '%sports%'
 select category, count(nombre)
 from juegos
 group by Category
+
+--16. ¿Cuál es la máxima y mínima puntuación por género?
+
+select Genre,max(Metacritic) as NotaMaxima, min(Metacritic) as NotaMínima
+from juegos
+group by genre
+
+--17. Usando Top, devuelve el top 10 de juegos con mayor puntuación del 2012.
+
+select top 10 Nombre, Metacritic
+from juegos
+where ReleaseDate = '2012'
+order by Metacritic desc
+
+--18. Usando top, devuelve el top 10 de juegos más nuevos de género single player.
+
+select top 10 Nombre, ReleaseDate
+from juegos
+order by ReleaseDate desc
+
+
+
+
+
