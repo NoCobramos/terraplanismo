@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+/* CABECERA */
+.showclase
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.showclase video
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.titel{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(19, 1, 62);
+    background-image: url(../img/81TO0hoS-hL._AC_SS450_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 150px;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+  /* MENU */
+  #menu {
+    margin: auto;
+    width: 700px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  .nav {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .nav>li {
+    float: left;
+  }
+  
+  .nav li a {
+    background-color: #2d458a;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+  }
+  
+  .nav li a:hover {
+    background-color: rgb(92, 138, 187);
+    text-decoration: underline;
+  }
+  
+  .nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+  }
+  
+  .nav li:hover>ul {
+    display: block;
+  }
+  
+  .nav li ul li {
+    position: relative;
+  }
+  
+  .nav li ul li ul {
+    right: -140px;
+    top: 0px;
+  }
+  /*Pie de pagina*/
+  #piePagina{
+    background-image: url(../img/fondoFooter.jpg);
+    background-position: 50%;
+    width: 100%;
+    height: 275px;
+    filter: brightness(80%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+}
+#contactoPie{
+    float: left;
+}
+#interesPie{
+    float: left;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+#redesPie{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+#contactoPie form{
+    margin: 5px;
+    color: white;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 15px;
+}
+#contactoPie label,input,select{
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#contactoPie input[Type=submit]{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+#contactoPie input[Type=submit]:hover{
+    background-color: darkblue;
+}
+#asunto{
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#interesPie a{
+    text-decoration: underline;
+}
+#interesPie a:hover{
+    text-decoration: none;
+}
+#interesPie a:link{
+    color: white;
+}
+#interesPie a:visited{
+    color: lightskyblue;
+}
+#redesPie p{
+    float: right;
+}
