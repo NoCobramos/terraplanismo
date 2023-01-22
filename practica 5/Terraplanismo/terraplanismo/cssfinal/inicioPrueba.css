@@ -1,20 +1,25 @@
 /*PRINCIPAL*/
+main
+{
+  z-index: -1;
+  position: relative;
+  height: auto;
+  width: fit-content;
+  height: fit-content;
+}
 #principal {
-  background-color: #ACBFDD;
-  position: static;
   height: 100%;
   width: 100%;
   z-index: -1;
+  position: static;
+  border-top: white solid 3px;
+  
 }
 
 /*TEXTO*/
 .texto {
   width: 70%;
-  background-color: white;
   position: relative;
-  top: 70px;
-  left: 10px;
-
 }
 
 .contenido {
@@ -22,17 +27,20 @@
   margin-right: 30px;
   text-align: left;
   padding: 1em;
+  border: white solid 2px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  background-color: rgb(180, 207, 216);
 }
 
 .contenido table td {
   width: 15px;
   height: 20px;
 }
-
 .contenido table th,
 .contenido table th a {
   text-align: left;
-  font-size: 1 em;
+  font-size: 1em;
   color: #76CFEB;
 }
 
@@ -40,6 +48,7 @@
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
+  color: white;
 }
 
 .contenido a {
@@ -49,8 +58,8 @@
 
 .contenido h2 {
   color: blue;
-  margin-right: 50px;
   text-decoration: underline;
+  
 }
 
 .contenido table th a:hover {

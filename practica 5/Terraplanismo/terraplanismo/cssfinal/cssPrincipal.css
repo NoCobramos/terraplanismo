@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: lightblue;
+    background-color:black;
 }
 /* CABECERA */
 .showclase
@@ -35,12 +35,16 @@ body{
     mix-blend-mode: multiply;
 }
   /* MENU */
+  .clear{
+    clear: both;
+  }
   #menu {
+    margin-top: 1000px;
+    margin-bottom: 100px;
     margin: auto;
     width: 700px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
-  
   }
   
   ul,
@@ -93,12 +97,10 @@ body{
     background-image: url(../img/fondoFooter.jpg);
     background-position: 50%;
     width: 100%;
-    height: 275px;
+    height: 200px;
     filter: brightness(80%);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    margin: 20px;
+    position: static;
+    clear: both;
 }
 #contactoPie{
     float: left;

@@ -1,12 +1,29 @@
 
-main{
-
+main
+{
+    border: white solid 1px;
 }
+.tarjeta
+{
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+.tarjeta h1
+{
+    background-color: aliceblue;
+    color: blue;
+}
+.tarjeta p::first-letter
+{
+    margin-left: 20pX;
+    font-size: 2em;
+}
+
 #principal{
     width: fit-content;
     height: fit-content;
     position: relative;
-
+    z-index: -1;
 }
 #TerraInfo{
     margin-left: 15%;
@@ -14,7 +31,7 @@ main{
     float: left;
     color: white;
     filter: brightness(80%);
-    margin-top: 275px;
+    margin-top: 30px;
     margin-bottom: 25px;
 }
 #TerraInfo h1{
