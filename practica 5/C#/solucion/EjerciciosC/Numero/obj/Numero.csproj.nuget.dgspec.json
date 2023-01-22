@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj": {}
+    "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj": {
+    "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj",
+        "projectUniqueName": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj",
         "projectName": "Numero",
-        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj",
-        "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\obj\\",
+        "projectPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\Numero.csproj",
+        "packagesPath": "C:\\Users\\joany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Numero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ModuloPRO\\.nuget\\packages\\": {}
+    "C:\\Users\\joany\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
+      "projectUniqueName": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
       "projectName": "string",
-      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
-      "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\obj\\",
+      "projectPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
+      "packagesPath": "C:\\Users\\joany\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joany\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
