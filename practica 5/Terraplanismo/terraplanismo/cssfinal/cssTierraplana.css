@@ -1,0 +1,49 @@
+
+main{
+
+}
+#principal{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+
+}
+#TerraInfo{
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+    color: white;
+    filter: brightness(80%);
+    margin-top: 275px;
+    margin-bottom: 25px;
+}
+#TerraInfo h1{
+    padding: 10px;
+
+}
+#TerraInfo p{
+    font-size: large;
+    padding: 15px;
+
+
+}
+#rowbotham{
+    float: left;
+    height: 150px;
+    margin: 5px;
+}
+#shenton{
+    float: left;
+    height: 150px;
+    margin: 5px;
+}
+#shaq{
+    float: left;
+    height: 250px;
+    margin: 5px;
+}
+#Kyrie{
+    float: left;
+    height: 250px;
+    margin: 5px;
+}
