@@ -1,0 +1,136 @@
+body{
+  background-color:black;
+}
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+#main-copy h1 {
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 120%;
+  margin: 2ex 0 1ex 0;
+  padding: 0;
+}
+
+#main-copy a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#main-copy a:after {
+  /* Prints the links' URIs after the links' texts. Doesn't work in MSIE */
+  content: "<" attr(href) ">";
+  font-size: 90%;
+  padding-left: 1ex;
+}
+
+p {
+  margin: 0 0 2ex 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+dd {
+  margin: 0 0 2ex 1.5em;
+  padding: 0;
+}
+
+/* Button */
+#button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(70, 70, 131);
+  color: white;
+  border: none;
+  position: relative;
+  left: 45%;
+  margin-bottom: 30px;
+}
+
+#button:hover {
+  background-color: rgb(92, 138, 187);;
+  text-decoration: underline;
+}
+
+
+/* Oculto */
+.oculto {
+  display: none;
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  margin-left: 40%;
+}
+
+#for {
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  margin-left: 40%;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+#name {
+  width: 200px;
+  margin-left: 53px;
+}
+
+#mail {
+  width: 300px;
+  margin-left: 75px;
+}
+
+#msg {
+  width: 300px;
+  height: 80px;
+  margin-left: 15px;
+}
+
+#for label {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Oculto se muestra cuando pulsan el boton*/
+
+
+/* COMENTARIOS */
+
+.comentarios {
+  padding: 1em;
+  border: double;
+  font-weight: bold;
+  margin: 20px 20px;
+  color: aliceblue;
+}
+
+.comentarios p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+.comentarios a {
+  color: aliceblue;
+}
+
+/* COMENTARIOS CON SOMBRAS */

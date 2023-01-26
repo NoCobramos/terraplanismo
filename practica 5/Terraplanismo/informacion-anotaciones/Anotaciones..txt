@@ -1,3 +1,3 @@
-1.- Footer no se me ven las imagenes.
-2.- Arreglar del footer el que se mueva con el texto (tiene una posición fija en la pantalla).
-3.- Arreglar que al desplegar menú se vea por debajo del menu del body
+1.- Queda pendiente el uso del boton para ocultar el formulario en el foro
+2.- Hacer lo del a del indez.html
+3.- Seguimos pendientes de la barra lateral para el index.html
