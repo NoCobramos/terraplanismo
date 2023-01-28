@@ -4,16 +4,31 @@
     
 }
 
-p, h1{
+p, h1, h2{
     color: white;
     margin: 5px;
 }
 #QueTierra{
     float: left;
+
+    border: 2px solid blueviolet;
 }
 #AlrededorSol{
     float: left;
+    border: 2px solid blueviolet;
+
 }
 #QueSabemos{
     float: left;
+    border: 2px solid blueviolet;
+
+}
+#FormasDemostrar{
+    float: left;
+    color: white;
+    border: 2px solid blueviolet;
+
+}
+h1:first-of-type{
+    background-color: lightblue;
 }
