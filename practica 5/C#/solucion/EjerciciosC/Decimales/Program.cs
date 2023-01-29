@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using ejercicios_1;
+using System.Numerics;
+using System.Security.Cryptography.X509Certificates;
 
 namespace EjeciciosFinales
 {
@@ -7,6 +9,8 @@ namespace EjeciciosFinales
     {
         private static void Main(string[] args)
         {
+            decimal nun;
+            double a, b,c;
             int optionMenu;
             do
             {
@@ -19,21 +23,30 @@ namespace EjeciciosFinales
                 Console.WriteLine("3_ecuacion de segundo grado");
                 while (!(Int32.TryParse(Console.ReadLine(), out optionMenu)) && (optionMenu >= 0 && optionMenu <= 4))
                     Console.WriteLine("elija un numero del los designados");
-                if (optionMenu == 1)
+                switch (optionMenu)
                 {
-
-                }
-                else if (optionMenu == 2)
-                {
-
-                }
-                else if (optionMenu == 3)
-                {
-
-                }
-                else if (optionMenu == 0)
-                {
-
+                    case 1:
+                        nun=UtilesEntradas.EntradaDecima();
+                        Console.WriteLine($"Numero sin redondear: {nun}");
+                        nun=UtilesAction.ThreeDecimal(nun);
+                        Console.WriteLine($"numero redondeado {nun}");
+                        Console.ReadKey();
+                        break;
+                    case 2:
+                        nun = UtilesEntradas.EntradaDecima();
+                        Console.WriteLine($"Numero: {nun}");
+                        nun = UtilesAction.NotDecimal(nun);
+                        Console.WriteLine($"Numero sin decimales: {nun}");
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        a = UtilesEntradas.EntradaDouble();
+                        b = UtilesEntradas.EntradaDouble();
+                        c = UtilesEntradas.EntradaDouble();
+                        UtilesAction.Ecuaciones(a, b, c);
+                        Console.ReadKey();
+                        break;
+         
                 }
 
             } while (optionMenu != 0);
