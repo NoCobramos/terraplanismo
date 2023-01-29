@@ -1,111 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="cssfinal/cssPrincipal.css">
-    <link rel="stylesheet" href="../terraplanismo/endika_css/cssSecundario.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cssfinal/cssPrincipal.css" />
+    <link rel="stylesheet" href="cssfinal/cssForo.css"/>
     <title>FORO</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="contenedor">
-        <header>
-            <section class="showclase">
-                <video src="video/fondos-de-estrellas-de-colores-gif-13 (1).mp4"></video>
-                <h1 class="titel"> FORO</h1>
+      <header>
+        <section class="showclase">
+          <video
+            src="video/fondos-de-estrellas-de-colores-gif-13 (1).mp4"
+          ></video>
+          <h1 class="titel">FORO</h1>
+        </section>
+      </header>
+      <div id="menu">
+        <nav>
+          <ul class="nav">
+            <li><a href="../terraplanismo/index.html">Inicio</a></li>
+            <li>
+              <a href="../terraplanismo/index.html">Terraplanismo</a>
+              <ul>
+                <li><a href="">Submenu1</a></li>
+                <li><a href="">Submenu2</a></li>
+                <li><a href="">Submenu3</a></li>
+                <li>
+                  <a href="">Submenu4</a>
+                  <ul>
+                    <li><a href="">Submenu1</a></li>
+                    <li><a href="">Submenu2</a></li>
+                    <li><a href="">Submenu3</a></li>
+                    <li><a href="">Submenu4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="../terraplanismo/redonda.html"
+                >¿Por qué la Tierra no es plana?</a
+              >
+              <ul>
+                <li><a href="">Submenu1</a></li>
+                <li><a href="">Submenu2</a></li>
+                <li><a href="">Submenu3</a></li>
+                <li><a href="">Submenu4</a></li>
+              </ul>
+            </li>
+            <li><a href="../terraplanismo/foro.html">Foro</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div id="principal">
+          <br />
+          <br />
+          <br />
+          <br />
+          <button name="button" id="button">AÑADIR ALGO</button>
+          <div id="for">
+            <section class="caja">
+              <label for="name"><h3>Nombre: </h3></label>
+              <input type="text" id="name" name="user_name" />
             </section>
-        </header>
-        <div id="menu">
-            <nav>
-                <ul class="nav">
-                    <li><a href="../terraplanismo/index.html">Inicio</a></li>
-                    <li><a href="../terraplanismo/index.html">Terraplanismo</a>
-                        <ul>
-                            <li><a href="">Submenu1</a></li>
-                            <li><a href="">Submenu2</a></li>
-                            <li><a href="">Submenu3</a></li>
-                            <li><a href="">Submenu4</a>
-                                <ul>
-                                    <li><a href="">Submenu1</a></li>
-                                    <li><a href="">Submenu2</a></li>
-                                    <li><a href="">Submenu3</a></li>
-                                    <li><a href="">Submenu4</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="../terraplanismo/redonda.html">¿Por qué la Tierra no es plana?</a>
-                        <ul>
-                            <li><a href="">Submenu1</a></li>
-                            <li><a href="">Submenu2</a></li>
-                            <li><a href="">Submenu3</a></li>
-                            <li><a href="">Submenu4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../terraplanismo/foro.html">Foro</a></li>
-                </ul>
-            </nav>
-        </div>
-        <main>
-            <div id="principal"></div>
-            <div class="secundaria" id="secundaria1"></div>
-        </main>
-        <footer id="piePagina">
-            <div >
-                <div id="contactoPie">
-                    <form action="">
-                        <fieldset>
-                        <legend>Contacta con nosotros</legend>
-                            <label for="nombre">Nombre</label>
-                            <input type="text" id="nombre" name="Nombre" placeholder="Tu Nombre.."><br>
-                            <label for="apellido">Apellidos</label>
-                            <input type="text" id="apellido" name="Apellidos" placeholder="Tus Apellidos.."><br>
-                            <label for="comunidad">Comunidad</label>
-                            <select name="comunidad" id="comunidad">
-                                <option value="And">Andalucía</option>
-                                <option value="Cat">Cataluña</option>
-                                <option value="CoM">Comunidad de Madrid</option>
-                                <option value="CoV">Comunidad Valenciana</option>
-                                <option value="Gal">Galicia</option>
-                                <option value="CyL">Castilla y León</option>
-                                <option value="PVa">País Vasco</option>
-                                <option value="Can">Canarias</option>
-                                <option value="CLM">Castilla-La Mancha</option>
-                                <option value="RdM">Región de Murcia</option>
-                                <option value="Arg">Aragón</option>
-                                <option value="IBa">Islas Baleares</option>
-                                <option value="Ext">Extremadura</option>
-                                <option value="PdA">Principado de Asturias</option>
-                                <option value="CFN">Comunidad Foral de Navarra</option>
-                                <option value="Cnt">Cantabria</option>
-                                <option value="LRi">La Rioja</option>
-                                <option value="Mel">Melilla</option>
-                                <option value="Ceu">Ceuta</option>
-                            </select><br>
-                            <textarea name="asunto" id="asunto" cols="30" rows="3" placeholder="Escribe tu mensaje...">
-                            </textarea><br>
-                            <input type="submit" value="Enviar">
-                        </fieldset>
-                    </form>
-                </div>
-                <div id="interesPie">
-                    <p><a href="https://www.terraria.org/" target="_blank">Nuestra info</a></p>
-                    <p><a href="https://www.terraria.org/" target="_blank">Nuestro equipo</a></p>
-                    <p><a href="https://www.terraria.org/" target="_blank">Otros proyectos</a></p>
-                    <p><a href="https://www.terraria.org/" target="_blank">Personas a conocer</a></p>
-                    <p><a href="https://www.terraria.org/" target="_blank">Datos interesantes</a></p>
-                </div>
-                <div id="redesPie">
-                    <p><a href="https://twitter.com/Terraria_Logic" target="_blank"><img src="../terraplanismo/img/twitterIcon.png" alt="Icono de Twitter"></a></p>
-                    <p><a href="https://www.facebook.com/TerrariaOfficial/" target="_blank"><img src="../terraplanismo/img/facebookIcon.png" alt="Icono de Facebook"></a></p>
-                    <p><a href="https://www.reddit.com/r/Terraria/" target="_blank"><img src="../terraplanismo/img/redditIcon.png" alt="Icono de reddit"></a></p>
-                    <p><a href="https://www.youtube.com/@ReLogicOfficial/videos" target="_blank"><img src="../terraplanismo/img/YoutubeIcon.png" alt="Icono de Youtube"></a></p>
-                    <p><a href="https://www.instagram.com/terraria_logic/" target="_blank"><img src="../terraplanismo/img/instagramIcon.png" alt="Icono de Instagram"></a></p>
-                </div>
-            </div>
-        </footer>
-    </div>
-</body>
+            <section class="caja">
+              <label for="mail"><h3>Email: </h3></label>
+              <input type="text" id="mail" name="mail" />
+            </section>
+            <section class="caja">
+              <label for="msg"><h3>Comentario: </h3></label>
+              <textarea id="msg" name="msg"></textarea>
+            </section>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
 
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="comentarios">
+            <table>
+              <tr>
+                <td><img src="img/img-info/icono_fecha.gif" /></td>
+                <th>18-11-2022 07:23</th>
+                <td><img src="img/img-info/icono_autor.gif" /></td>
+                <th><a href="">Nombre Apellido</a></th>
+                <td><img src="img/img-info/icono_comentarios.gif" /></td>
+                <th><a href="">Añadir comentario</a></th>
+              </tr>
+            </table>
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+        <div class="secundaria" id="secundaria1"></div>
+      </main>
+      <footer id="piePagina">
+        <div>
+          <div id="contactoPie">
+            <form action="">
+              <fieldset>
+                <legend>Contacta con nosotros</legend>
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="Nombre"
+                  placeholder="Tu Nombre.."
+                /><br />
+                <label for="apellido">Apellidos</label>
+                <input
+                  type="text"
+                  id="apellido"
+                  name="Apellidos"
+                  placeholder="Tus Apellidos.."
+                /><br />
+                <label for="comunidad">Comunidad</label>
+                <select name="comunidad" id="comunidad">
+                  <option value="And">Andalucía</option>
+                  <option value="Cat">Cataluña</option>
+                  <option value="CoM">Comunidad de Madrid</option>
+                  <option value="CoV">Comunidad Valenciana</option>
+                  <option value="Gal">Galicia</option>
+                  <option value="CyL">Castilla y León</option>
+                  <option value="PVa">País Vasco</option>
+                  <option value="Can">Canarias</option>
+                  <option value="CLM">Castilla-La Mancha</option>
+                  <option value="RdM">Región de Murcia</option>
+                  <option value="Arg">Aragón</option>
+                  <option value="IBa">Islas Baleares</option>
+                  <option value="Ext">Extremadura</option>
+                  <option value="PdA">Principado de Asturias</option>
+                  <option value="CFN">Comunidad Foral de Navarra</option>
+                  <option value="Cnt">Cantabria</option>
+                  <option value="LRi">La Rioja</option>
+                  <option value="Mel">Melilla</option>
+                  <option value="Ceu">Ceuta</option></select
+                ><br />
+                <textarea
+                  name="asunto"
+                  id="asunto"
+                  cols="30"
+                  rows="3"
+                  placeholder="Escribe tu mensaje..."
+                >
+                </textarea
+                ><br />
+                <input type="submit" value="Enviar" />
+              </fieldset>
+            </form>
+          </div>
+          <div id="interesPie">
+            <p>
+              <a href="https://www.terraria.org/" target="_blank"
+                >Nuestra info</a
+              >
+            </p>
+            <p>
+              <a href="https://www.terraria.org/" target="_blank"
+                >Nuestro equipo</a
+              >
+            </p>
+            <p>
+              <a href="https://www.terraria.org/" target="_blank"
+                >Otros proyectos</a
+              >
+            </p>
+            <p>
+              <a href="https://www.terraria.org/" target="_blank"
+                >Personas a conocer</a
+              >
+            </p>
+            <p>
+              <a href="https://www.terraria.org/" target="_blank"
+                >Datos interesantes</a
+              >
+            </p>
+          </div>
+          <div id="redesPie">
+            <p>
+              <a href="https://twitter.com/Terraria_Logic" target="_blank"
+                ><img
+                  src="../terraplanismo/img/twitterIcon.png"
+                  alt="Icono de Twitter"
+              /></a>
+            </p>
+            <p>
+              <a
+                href="https://www.facebook.com/TerrariaOfficial/"
+                target="_blank"
+                ><img
+                  src="../terraplanismo/img/facebookIcon.png"
+                  alt="Icono de Facebook"
+              /></a>
+            </p>
+            <p>
+              <a href="https://www.reddit.com/r/Terraria/" target="_blank"
+                ><img
+                  src="../terraplanismo/img/redditIcon.png"
+                  alt="Icono de reddit"
+              /></a>
+            </p>
+            <p>
+              <a
+                href="https://www.youtube.com/@ReLogicOfficial/videos"
+                target="_blank"
+                ><img
+                  src="../terraplanismo/img/YoutubeIcon.png"
+                  alt="Icono de Youtube"
+              /></a>
+            </p>
+            <p>
+              <a
+                href="https://www.instagram.com/terraria_logic/"
+                target="_blank"
+                ><img
+                  src="../terraplanismo/img/instagramIcon.png"
+                  alt="Icono de Instagram"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
