@@ -1,0 +1,19 @@
+#principal{
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+p, h1{
+    color: white;
+    margin: 5px;
+}
+#QueTierra{
+    float: left;
+}
+#AlrededorSol{
+    float: left;
+}
+#QueSabemos{
+    float: left;
+}

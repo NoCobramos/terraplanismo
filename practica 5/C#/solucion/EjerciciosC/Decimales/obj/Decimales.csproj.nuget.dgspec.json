@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {}
+    "C:\\Users\\ModuloPRO\\Desktop\\ETS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {
+    "C:\\Users\\ModuloPRO\\Desktop\\ETS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\ETS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
         "projectName": "Decimales",
-        "projectPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
-        "packagesPath": "C:\\Users\\joany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
+        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\ETS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+        "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\ETS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
