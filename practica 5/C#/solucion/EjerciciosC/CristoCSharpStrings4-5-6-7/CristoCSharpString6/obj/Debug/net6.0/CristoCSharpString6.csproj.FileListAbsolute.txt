@@ -1,0 +1,15 @@
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\bin\Debug\net6.0\CristoCSharpString6.exe
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\bin\Debug\net6.0\CristoCSharpString6.deps.json
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\bin\Debug\net6.0\CristoCSharpString6.runtimeconfig.json
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\bin\Debug\net6.0\CristoCSharpString6.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\bin\Debug\net6.0\CristoCSharpString6.pdb
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.csproj.AssemblyReference.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.AssemblyInfoInputs.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.AssemblyInfo.cs
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.csproj.CoreCompileInputs.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\refint\CristoCSharpString6.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.pdb
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\CristoCSharpString6.genruntimeconfig.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpString6\obj\Debug\net6.0\ref\CristoCSharpString6.dll

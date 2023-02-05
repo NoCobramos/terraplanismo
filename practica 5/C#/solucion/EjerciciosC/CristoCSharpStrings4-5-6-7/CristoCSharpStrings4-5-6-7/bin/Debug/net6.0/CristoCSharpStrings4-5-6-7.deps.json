@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CristoCSharpStrings4-5-6-7/1.0.0": {
+        "runtime": {
+          "CristoCSharpStrings4-5-6-7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CristoCSharpStrings4-5-6-7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
