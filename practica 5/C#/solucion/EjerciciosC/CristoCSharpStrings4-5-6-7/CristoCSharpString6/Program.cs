@@ -7,32 +7,48 @@ namespace String2
     {
         static void Main(string[] args)
         {
-            char char1;
+            string resultado = "";
             string cadenaFin = "";
             Console.WriteLine("Introduce una cadena por favor: ");
             string cadena1 = Console.ReadLine();
             Console.WriteLine("Introduce la segunda cadena por favor: ");
             string cadena2 = Console.ReadLine();
-            if (cadena1.Length > cadena2.Length)
+           /* if (cadena1.Contains(cadena2))
             {
-                for(int i = 0; i< cadena1.Length; i++)
+
+                Console.WriteLine(cadena1.Substring(0,cadena2.IndexOf(cadena2[0])));
+            }*/
+           for(int i = 0, j = 0; i < cadena1.Length; i++)
+            {
+                if(cadena1[i] == cadena2[j])
                 {
-                    if (cadena2[i] == cadena1[i])
+                    if(j == cadena2.Length - 1)
                     {
-                        char1 = cadena1[i];
-                        cadenaFin = char1.ToString();
+                        cadenaFin = "";
+                        j = 0;
                     }
-
+                    else
+                    {
+                        cadenaFin += cadena1[i];j++;
+                    }
                 }
-                
-                Console.WriteLine(cadenaFin);
+                else
+                {
+                    resultado += cadenaFin;
+                    cadenaFin = "";
+
+                    if( j == 0)
+                    {
+                        resultado += cadena1[i];
+                    }
+                    else
+                    {
+                        j = 0;
+                        i--;
+                    }
+                }
             }
-            if(cadena1.Length<cadena2.Length)
-            {
-
-            }
-
-
+            Console.WriteLine(resultado);
         }
     }
 }
