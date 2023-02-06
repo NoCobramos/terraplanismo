@@ -13,11 +13,7 @@ namespace String2
             string cadena1 = Console.ReadLine();
             Console.WriteLine("Introduce la segunda cadena por favor: ");
             string cadena2 = Console.ReadLine();
-           /* if (cadena1.Contains(cadena2))
-            {
 
-                Console.WriteLine(cadena1.Substring(0,cadena2.IndexOf(cadena2[0])));
-            }*/
            for(int i = 0, j = 0; i < cadena1.Length; i++)
             {
                 if(cadena1[i] == cadena2[j])
