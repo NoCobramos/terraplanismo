@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
-      "projectName": "string",
-      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\string.csproj",
+      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\Strings.csproj",
+      "projectName": "Strings",
+      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\Strings.csproj",
       "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\string\\obj\\",
       "projectStyle": "PackageReference",
