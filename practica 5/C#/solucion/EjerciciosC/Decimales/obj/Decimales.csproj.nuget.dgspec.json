@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DAWB\\ETS\\REPOS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {}
+    "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\Practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {}
   },
   "projects": {
-    "D:\\DAWB\\ETS\\REPOS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {
+    "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\Practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAWB\\ETS\\REPOS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\Practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
         "projectName": "Decimales",
-        "projectPath": "D:\\DAWB\\ETS\\REPOS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
-        "packagesPath": "C:\\Users\\ENDIKA PRADERA\\.nuget\\packages\\",
-        "outputPath": "D:\\DAWB\\ETS\\REPOS\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
+        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\Practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+        "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\Practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ENDIKA PRADERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

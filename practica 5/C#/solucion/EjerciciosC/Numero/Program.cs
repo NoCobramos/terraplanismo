@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace EjeciciosFinales
+namespace Numero
 {
 
 
@@ -12,7 +12,7 @@ namespace EjeciciosFinales
             do
             {
                 Console.Clear();
-                Console.WriteLine("Bien venido al menu de Numeros");
+                Console.WriteLine("Bienvenido al menu de Numeros");
                 Console.WriteLine("Elija una de las siguientes opciones");
                 Console.WriteLine("0_ Salir del programa");
                 Console.WriteLine("1_Primos");
@@ -22,37 +22,35 @@ namespace EjeciciosFinales
                 Console.WriteLine("5_Armstrong");
                 Console.WriteLine("6_Diferente");
 
-                while (!(Int32.TryParse(Console.ReadLine(), out optionMenu)) && (optionMenu >= 0 && optionMenu <= 4))
-                    Console.WriteLine("elija un numero del los designados");
-                if (optionMenu == 1)
+                while (!(Int32.TryParse(Console.ReadLine(), out optionMenu)))
+                    Console.WriteLine("Introduce un número valido");
+                switch (optionMenu)
                 {
+                    case 1:
+                        Funciones.Primo();
+                        break;
 
+                    case 2:
+                        Funciones.Factorial();
+                        break;
+
+                    case 3:
+                        Funciones.Horas();
+                        break;
+
+                    case 4:
+                        Funciones.Pell();
+                        break;
+
+                    case 5:
+                        Funciones.Armstrong();
+                        break;
+
+                    case 6:
+                        Funciones.Diferente();
+                        break;
                 }
-                else if (optionMenu == 2)
-                {
 
-                }
-                else if (optionMenu == 3)
-                {
-
-                }
-                else if (optionMenu == 4)
-                {
-
-                }
-                else if (optionMenu == 5)
-                {
-
-
-                }
-                else if (optionMenu == 6)
-                {
-
-                }
-                else if (optionMenu == 0)
-                {
-
-                }
 
             } while (optionMenu != 0);
             Console.WriteLine("salistes");
