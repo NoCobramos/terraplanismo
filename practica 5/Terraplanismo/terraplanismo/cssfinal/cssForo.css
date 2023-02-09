@@ -29,12 +29,6 @@ body{
     font-size: 90%;
     padding-left: 1ex;
   }
-  
-  p {
-    margin: 0 0 2ex 0;
-    padding: 0;
-  }
-  
   dl {
     margin: 0;
     padding: 0;
@@ -70,59 +64,9 @@ body{
     background-color: rgb(92, 138, 187);;
     text-decoration: underline;
   }
-  
-  
+
   /* Oculto */
-  .oculto {
-    display: none;
-    text-align: left;
-    width: 500px;
-    height: 200px;
-    margin-left: 40%;
-  }
-  
-  #for 
-  {
-    border: 1px solid white;
-    width: 500px;
-    height: 260px;
-    margin-left: 40%;
-    color: aliceblue;
-    text-decoration: underline;
-    overflow: hidden;
-  }
-  #for .caja h3
-  {
-    text-align: center;
-    color: black;
-    background-color: white;
-  }
-  #mail
-  {
-    margin-left: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-image:  url(../img/81TO0hoS-hL._AC_SS450_.jpg);
-    color: whitesmoke;
-  }
-  #name
-  {
-    margin-left: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-image:  url(../img/81TO0hoS-hL._AC_SS450_.jpg);
-    color: whitesmoke;
-  }
-  #msg
-  {
-    margin-left: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-image:  url(../img/81TO0hoS-hL._AC_SS450_.jpg);
-    color: whitesmoke;
-  }
-  
-  
+
   /*Oculto se muestra cuando pulsan el boton*/
   
   

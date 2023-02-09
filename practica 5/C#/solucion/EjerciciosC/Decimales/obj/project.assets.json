@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joany\\.nuget\\packages\\": {}
+    "C:\\Users\\ModuloPRO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
       "projectName": "Decimales",
-      "projectPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
-      "packagesPath": "C:\\Users\\joany\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joany\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
+      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\Decimales.csproj",
+      "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\terraplanismo\\practica 5\\C#\\solucion\\EjerciciosC\\Decimales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

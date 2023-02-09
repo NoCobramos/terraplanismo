@@ -1,0 +1,55 @@
+.card .btn2{
+    background-color: red;
+    color: whitesmoke;
+    border: 1px solid violet;
+    margin-left: auto;
+}
+.formulario
+{
+    margin: auto;
+    margin-top: 20px;
+    border: white 2px solid;
+    height: 125px;
+    width: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.formGrup
+{
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+.card
+{
+    margin: 10px ,10px 10px, 10px;
+    background-color: rgb(25, 25, 62);
+    border: 2px solid black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+.card h3
+{
+    background-color: white;
+    color: blue;
+    margin-top: 0px;
+    display: flex;
+}
+
+.contenedor
+{
+    background-color: black;
+}
+.Alert{
+    background-color: rgb(17, 199, 35);
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 10px;
+}

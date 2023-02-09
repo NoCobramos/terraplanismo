@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="cssfinal/cssPrincipal.css" />
     <link rel="stylesheet" href="cssfinal/cssForo.css"/>
+    <link rel="stylesheet" href="cssfinal/css.css">
     <title>FORO</title>
   </head>
-
   <body>
-    <div class="contenedor">
+    <div class="principal">
       <header>
         <section class="showclase">
           <video
-            src="video/fondos-de-estrellas-de-colores-gif-13 (1).mp4"
-          ></video>
+            src="video/fondos-de-estrellas-de-colores-gif-13 (1).mp4"autoplay loop></video>
           <h1 class="titel">FORO</h1>
         </section>
       </header>
@@ -37,27 +36,44 @@
           </ul>
         </nav>
       </div>
+      <div class="clear"></div>
+      <div id="btn"> <a href="foro.html#menu">&#x1f30f;</a></div>
       <main>
-        <div id="principal">
-          <br />
-          <br />
-          <br />
-          <br />
-          <button name="button" id="button">AÑADIR ALGO</button>
-          <div id="for">
-            <section class="caja">
-              <label for="name"><h3>Nombre: </h3></label>
-              <input type="text" id="name" name="user_name" />
-            </section>
-            <section class="caja">
-              <label for="mail"><h3>Email: </h3></label>
-              <input type="text" id="mail" name="mail" />
-            </section>
-            <section class="caja">
-              <label for="msg"><h3>Comentario: </h3></label>
-              <textarea id="msg" name="msg"></textarea>
-            </section>
-          </div>
+        <div class="contenedor">
+          <div id="App">
+            <!--esto es la cabecera de la APP-->
+            <!-- Este es el cuerpo de la APP-->
+            <div class="contenedorBody">
+                <!--formulario que forma el objeto-->
+                <div class="formulario">
+                    <div class="formularioHeader">
+                    <h2>Agrega tu carta</h2>
+                    </div>
+                    <!-- PF es producto del formulario-->
+                    <form id="PF" class="formularioBody">
+                    <div class="">
+                        <input type="text" id="name" placeholder="Nombre de usuario">
+                    </div>
+                    <div class="formGrup">
+                        <input type="email" step="0.01" id="email" placeholder="dime tu email">
+                    </div>
+                    <div class="formGrup">
+                        <input type="text" id="comentario" placeholder="escribe el tema">
+                    </div>
+                    <div class="formGrup" >
+                        <input type="submit" value="save" class="btn">
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <!--terminal de guardado-->
+            <div class="listado">
+                <div id="producList">
+    
+                </div>
+            </div>
+        </div>  
+        
           <div class="comentarios">
             <table>
               <tr>
@@ -69,7 +85,6 @@
                 <th><a href="">Añadir comentario</a></th>
               </tr>
             </table>
-
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -171,9 +186,11 @@
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
+          </div>
           </div>
         </div>
         <div class="secundaria" id="secundaria1"></div>
+        
       </main>
       <footer id="piePagina">
         <div>
@@ -302,6 +319,7 @@
           </div>
         </div>
       </footer>
+      <script src="js/app.js"></script>
     </div>
   </body>
 </html>
