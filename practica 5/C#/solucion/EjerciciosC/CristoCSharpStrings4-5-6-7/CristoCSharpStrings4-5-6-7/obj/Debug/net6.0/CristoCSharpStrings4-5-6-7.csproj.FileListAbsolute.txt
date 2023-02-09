@@ -1,0 +1,15 @@
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.csproj.AssemblyReference.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.AssemblyInfoInputs.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.AssemblyInfo.cs
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.csproj.CoreCompileInputs.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\bin\Debug\net6.0\CristoCSharpStrings4-5-6-7.exe
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\bin\Debug\net6.0\CristoCSharpStrings4-5-6-7.deps.json
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\bin\Debug\net6.0\CristoCSharpStrings4-5-6-7.runtimeconfig.json
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\bin\Debug\net6.0\CristoCSharpStrings4-5-6-7.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\bin\Debug\net6.0\CristoCSharpStrings4-5-6-7.pdb
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\refint\CristoCSharpStrings4-5-6-7.dll
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.pdb
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\CristoCSharpStrings4-5-6-7.genruntimeconfig.cache
+D:\Clase\ETS\terraplanismo\practica 5\C#\solucion\EjerciciosC\CristoCSharpStrings4-5-6-7\CristoCSharpStrings4-5-6-7\obj\Debug\net6.0\ref\CristoCSharpStrings4-5-6-7.dll
