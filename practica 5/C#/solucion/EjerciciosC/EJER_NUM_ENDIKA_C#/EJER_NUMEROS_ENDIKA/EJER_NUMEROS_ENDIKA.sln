@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJER_NUMEROS_ENDIKA", "EJER_NUMEROS_ENDIKA.csproj", "{D2B08E85-B20F-45EA-843F-33C8B720CE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B08E85-B20F-45EA-843F-33C8B720CE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B08E85-B20F-45EA-843F-33C8B720CE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B08E85-B20F-45EA-843F-33C8B720CE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B08E85-B20F-45EA-843F-33C8B720CE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57149BB2-E5BF-444D-B16D-1EACB2C7CE18}
+	EndGlobalSection
+EndGlobal
